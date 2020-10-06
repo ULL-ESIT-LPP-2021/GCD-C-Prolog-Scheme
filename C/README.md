@@ -53,3 +53,4 @@ Compile to assembly code: gcc -c -g -S gcd.c
 Disassembly: objdump -S --disassemble gcd.o > gcd.dump
 
 Augmented code: gcc -c -g -Wa,-a,-ad  gcd.c > gcd.lst
+

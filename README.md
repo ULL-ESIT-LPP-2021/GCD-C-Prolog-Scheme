@@ -3,5 +3,7 @@
 Implementación del máximo común divisor en los lenguajes de programación:
 
   * C
-  * Prolog
   * Scheme 
+  * Prolog
+
+Es necesario instalar los compiladores e intérpretes respectivos para poder ejecutar los ejemplos

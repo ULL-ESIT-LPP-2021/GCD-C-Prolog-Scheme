@@ -3,6 +3,32 @@ README.md
 Para comprobar el funcionamiento del máximo común divisor escrito en Prolog
 hay que usar el intérprete.
 
+```
+$ swipl -s gcd.pl
+Welcome to SWI-Prolog (threaded, 64 bits, version 7.6.4)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+| ?- gcd(5,7,1).
+
+true ? 
+
+yes
+| ?- gcd(5,7,2).
+
+no
+| ?- halt.
+
+```
+
+
+
+
+El "gprolog" no funciona bien.
+
 $ gprolog
 GNU Prolog 1.3.0
 By Daniel Diaz
@@ -26,6 +52,12 @@ no
 El manual de GNU Prolog lo podemos encontrar en:
 
 http://www.gprolog.org/manual/gprolog.html#The-GNU-Prolog-compiler
+
+Dejo de funcionar.
+
+Se ha usado SWI-Prolog y su manual está en:
+
+https://wwu-pi.github.io/tutorials/lectures/lsp/010_install_swi_prolog.html
 
 Un libro de Prolog:
 
