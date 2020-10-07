@@ -1,4 +1,4 @@
-README.md
+# README.md
 
 Para comprobar el funcionamiento del máximo común divisor escrito en Prolog
 hay que usar el intérprete.
@@ -29,6 +29,7 @@ no
 
 El "gprolog" no funciona bien.
 
+```
 $ gprolog
 GNU Prolog 1.3.0
 By Daniel Diaz
@@ -48,12 +49,13 @@ yes
 no
 | ?- halt.
 
+```
 
 El manual de GNU Prolog lo podemos encontrar en:
 
 http://www.gprolog.org/manual/gprolog.html#The-GNU-Prolog-compiler
 
-Dejo de funcionar.
+Sin embargo no funciona bien en la actualización.
 
 Se ha usado SWI-Prolog y su manual está en:
 
