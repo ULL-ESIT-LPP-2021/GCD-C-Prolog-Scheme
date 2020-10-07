@@ -3,9 +3,7 @@
 Para comprobar el funcionamiento de la función que calcula el 
 máximo común divisor usando Scheme hay dos alternativas:
 
-1) Ejecutar el script directamente puesto que incluye el sbang:
-```./gcd.smc
-``` 
+1) Ejecutar el script directamente puesto que incluye el sbang: ``./gcd.smc
    
 2) Invocar al intérprete de Scheme (llamdo Chicken) y hacerlo de forma
    interactiva usando el REPL (Read-Eval-Print Loop):
